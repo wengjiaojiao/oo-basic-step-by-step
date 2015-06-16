@@ -14,6 +14,9 @@ introduce方法返回一个字符串形如：
 
 My name is Tom. I am 21 years old. I am a Teacher. I teach Jerry.
 
+如果class为空，就会返回
+
+My name is Tom. I am 21 years old. I am a Teacher. I teach No Class.
 
 所有Person的子类的这段文字
 
