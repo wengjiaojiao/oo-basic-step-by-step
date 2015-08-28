@@ -8,7 +8,7 @@ Person.prototype.introduce = function(){
 }
 
 function Student(name, age, lesson) {
-    Person.call(name, age,this);
+    Person.call(this, name, age);
     this.lesson = lesson;
 }
 
